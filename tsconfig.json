@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "gmp-checkpoints": [
+        "dist/gmp-checkpoints"
+      ],
+      "gmp-checkpoints/*": [
+        "dist/gmp-checkpoints/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
